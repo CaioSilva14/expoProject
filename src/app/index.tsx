@@ -10,29 +10,31 @@ export default function Index() {
   return (
     <ScrollView 
     style={{ flex: 1 }} 
-    className="bg-slate-400" 
+    className=/*"bg-slate-400"*/ "bg-cyan-400"
     showsVerticalScrollIndicator={false}
     contentContainerStyle={{ paddingBottom: 20 }}
     >
       <View className="w-full px-4" style={{ marginTop: statusBarHeight + 8 }}>
         <Header/>
         <Banner/>
-
+        
         <Link 
           href="/boxA" 
           style={{
-            width: "85%", 
-            marginHorizontal: 28,
+            paddingVertical: 30,
+            width: "70%", 
+            marginHorizontal: 48,
             marginBottom: 20,
-            height: 100,
+            height: "10%",
             backgroundColor: '#f8f9fa', 
-            borderRadius: 10, 
+            borderRadius: 20, 
             shadowColor: '#000', 
             shadowOpacity: 0.2, 
             shadowOffset: { width: 0, height: 2 },
             justifyContent: 'center',  // Centraliza verticalmente
             alignItems: 'center',      // Centraliza horizontalmente
-            display: 'flex',           // Habilita o layout flex
+            display: 'flex',
+            textAlign: 'center'       // Habilita o layout flex
           }}
         >
           <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: "bold",color: '#000' }}>
@@ -43,18 +45,20 @@ export default function Index() {
         <Link 
           href="/boxB" 
           style={{
-            width: "85%",
-            marginHorizontal: 28,
+            paddingVertical: 30,
+            width: "70%",
+            marginHorizontal: 48,
             marginBottom: 20,
-            height: 100,
+            height: '10%',
             backgroundColor: '#f8f9fa', 
-            borderRadius: 10, 
+            borderRadius: 20, 
             shadowColor: '#000', 
             shadowOpacity: 0.2, 
             shadowOffset: { width: 0, height: 2 },
             justifyContent: 'center',  // Centraliza verticalmente
             alignItems: 'center',      // Centraliza horizontalmente
-            display: 'flex',           // Habilita o layout flex
+            display: 'flex', 
+            textAlign: 'center'          // Habilita o layout flex
           }}
         >
           <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: "bold",color: '#000' }}>
@@ -65,18 +69,20 @@ export default function Index() {
         <Link 
           href="/boxC" 
           style={{
-            width: "85%",
-            marginHorizontal: 28,
+            paddingVertical: 30,
+            width: "70%",
+            marginHorizontal: 48,
             marginBottom: 20,
-            height: 100,
+            height: '10%',
             backgroundColor: '#f8f9fa', 
-            borderRadius: 10, 
+            borderRadius: 20, 
             shadowColor: '#000', 
             shadowOpacity: 0.2, 
             shadowOffset: { width: 0, height: 2 },
             justifyContent: 'center',  // Centraliza verticalmente
             alignItems: 'center',      // Centraliza horizontalmente
-            display: 'flex',           // Habilita o layout flex
+            display: 'flex',
+            textAlign: 'center'           // Habilita o layout flex
           }}
         >
           <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: "bold",color: '#000' }}>
@@ -87,18 +93,20 @@ export default function Index() {
         <Link 
           href="/boxD" 
           style={{
-            width: "85%",
-            marginHorizontal: 28,
+            paddingVertical: 30,
+            width: "70%",
+            marginHorizontal: 48,
             marginBottom: 20,
-            height: 100,
+            height: '10%',
             backgroundColor: '#f8f9fa', 
-            borderRadius: 10, 
+            borderRadius: 20, 
             shadowColor: '#000', 
             shadowOpacity: 0.2, 
             shadowOffset: { width: 0, height: 2 },
             justifyContent: 'center',  // Centraliza verticalmente
             alignItems: 'center',      // Centraliza horizontalmente
-            display: 'flex',           // Habilita o layout flex
+            display: 'flex',
+            textAlign: 'center'           // Habilita o layout flex
           }}
         >
           <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: "bold",color: '#000' }}>
@@ -109,18 +117,20 @@ export default function Index() {
         <Link 
           href="/boxE" 
           style={{
-            width: "85%",
-            marginHorizontal: 28,
+            paddingVertical: 30,
+            width: "70%",
+            marginHorizontal: 48,
             marginBottom: 20,
-            height: 100,
+            height: '10%',
             backgroundColor: '#f8f9fa', 
-            borderRadius: 10, 
+            borderRadius: 20, 
             shadowColor: '#000', 
             shadowOpacity: 0.2, 
             shadowOffset: { width: 0, height: 2 },
             justifyContent: 'center',  // Centraliza verticalmente
             alignItems: 'center',      // Centraliza horizontalmente
-            display: 'flex',           // Habilita o layout flex
+            display: 'flex',
+            textAlign: 'center'           // Habilita o layout flex
           }}
         >
           <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: "bold",color: '#000' }}>

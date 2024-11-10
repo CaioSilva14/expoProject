@@ -9,7 +9,7 @@ export default function BoxE() {
   style={{ flex: 1 }}
   showsVerticalScrollIndicator={false}
   contentContainerStyle={{ paddingBottom: 20, paddingTop: statusBarHeight }}
-  className="bg-slate-400" // Altere a cor de fundo se desejar
+  className="bg-cyan-400" // Altere a cor de fundo se desejar
 >
   <View style={{ paddingHorizontal: 16, marginTop:10 }}>
     <Header />
