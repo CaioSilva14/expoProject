@@ -21,6 +21,7 @@ export default function Index() {
         <Link 
           href="/boxA" 
           style={{
+            borderWidth: 1,
             paddingVertical: 30,
             width: "70%", 
             marginHorizontal: 58,
@@ -45,6 +46,7 @@ export default function Index() {
         <Link 
           href="/boxB" 
           style={{
+            borderWidth: 1,
             paddingVertical: 30,
             width: "70%",
             marginHorizontal: 58,
@@ -69,6 +71,7 @@ export default function Index() {
         <Link 
           href="/boxC" 
           style={{
+            borderWidth: 1,
             paddingVertical: 30,
             width: "70%",
             marginHorizontal: 58,
@@ -93,6 +96,7 @@ export default function Index() {
         <Link 
           href="/boxD" 
           style={{
+            borderWidth: 1,
             paddingVertical: 30,
             width: "70%",
             marginHorizontal: 58,
@@ -117,6 +121,7 @@ export default function Index() {
         <Link 
           href="/boxE" 
           style={{
+            borderWidth: 1,
             paddingVertical: 30,
             width: "70%",
             marginHorizontal: 58,
@@ -141,6 +146,8 @@ export default function Index() {
         <Link 
           href="/disciplinas" 
           style={{
+            borderWidth: 2,
+            borderColor: 'white',
             paddingVertical: 30,
             width: "70%",
             marginHorizontal: 58,
