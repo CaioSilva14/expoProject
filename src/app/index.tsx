@@ -10,7 +10,7 @@ export default function Index() {
   return (
     <ScrollView 
     style={{ flex: 1 }} 
-    className=/*"bg-slate-400"*/ "bg-cyan-400"
+    className= "bg-cyan-400"
     showsVerticalScrollIndicator={false}
     contentContainerStyle={{ paddingBottom: 20 }}
     >
@@ -31,10 +31,10 @@ export default function Index() {
             shadowColor: '#000', 
             shadowOpacity: 0.2, 
             shadowOffset: { width: 0, height: 2 },
-            justifyContent: 'center',  // Centraliza verticalmente
-            alignItems: 'center',      // Centraliza horizontalmente
+            justifyContent: 'center',
+            alignItems: 'center',
             display: 'flex',
-            textAlign: 'center'       // Habilita o layout flex
+            textAlign: 'center'
           }}
         >
           <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: "bold",color: '#000' }}>
@@ -55,10 +55,10 @@ export default function Index() {
             shadowColor: '#000', 
             shadowOpacity: 0.2, 
             shadowOffset: { width: 0, height: 2 },
-            justifyContent: 'center',  // Centraliza verticalmente
-            alignItems: 'center',      // Centraliza horizontalmente
+            justifyContent: 'center',
+            alignItems: 'center',
             display: 'flex', 
-            textAlign: 'center'          // Habilita o layout flex
+            textAlign: 'center'  
           }}
         >
           <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: "bold",color: '#000' }}>
@@ -79,10 +79,10 @@ export default function Index() {
             shadowColor: '#000', 
             shadowOpacity: 0.2, 
             shadowOffset: { width: 0, height: 2 },
-            justifyContent: 'center',  // Centraliza verticalmente
-            alignItems: 'center',      // Centraliza horizontalmente
+            justifyContent: 'center',
+            alignItems: 'center',
             display: 'flex',
-            textAlign: 'center'           // Habilita o layout flex
+            textAlign: 'center'
           }}
         >
           <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: "bold",color: '#000' }}>
@@ -103,10 +103,10 @@ export default function Index() {
             shadowColor: '#000', 
             shadowOpacity: 0.2, 
             shadowOffset: { width: 0, height: 2 },
-            justifyContent: 'center',  // Centraliza verticalmente
-            alignItems: 'center',      // Centraliza horizontalmente
+            justifyContent: 'center',
+            alignItems: 'center',
             display: 'flex',
-            textAlign: 'center'           // Habilita o layout flex
+            textAlign: 'center'
           }}
         >
           <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: "bold",color: '#000' }}>
@@ -127,10 +127,10 @@ export default function Index() {
             shadowColor: '#000', 
             shadowOpacity: 0.2, 
             shadowOffset: { width: 0, height: 2 },
-            justifyContent: 'center',  // Centraliza verticalmente
-            alignItems: 'center',      // Centraliza horizontalmente
+            justifyContent: 'center',
+            alignItems: 'center', 
             display: 'flex',
-            textAlign: 'center'           // Habilita o layout flex
+            textAlign: 'center'
           }}
         >
           <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: "bold",color: '#000' }}>
