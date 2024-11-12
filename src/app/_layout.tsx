@@ -10,6 +10,7 @@ export default function RootLayout() {
       <Stack.Screen name='boxC'options={{title: "Bloco C"}}/>
       <Stack.Screen name='boxD'options={{title: "Bloco D"}}/>
       <Stack.Screen name='boxE'options={{title: "Bloco E"}}/>
+      <Stack.Screen name='disciplinas'options={{title: "Disciplinas"}}/>
     </Stack>
   )
 }

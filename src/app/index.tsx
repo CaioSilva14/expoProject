@@ -23,7 +23,7 @@ export default function Index() {
           style={{
             paddingVertical: 30,
             width: "70%", 
-            marginHorizontal: 48,
+            marginHorizontal: 58,
             marginBottom: 20,
             height: "10%",
             backgroundColor: '#f8f9fa', 
@@ -47,7 +47,7 @@ export default function Index() {
           style={{
             paddingVertical: 30,
             width: "70%",
-            marginHorizontal: 48,
+            marginHorizontal: 58,
             marginBottom: 20,
             height: '10%',
             backgroundColor: '#f8f9fa', 
@@ -71,7 +71,7 @@ export default function Index() {
           style={{
             paddingVertical: 30,
             width: "70%",
-            marginHorizontal: 48,
+            marginHorizontal: 58,
             marginBottom: 20,
             height: '10%',
             backgroundColor: '#f8f9fa', 
@@ -95,7 +95,7 @@ export default function Index() {
           style={{
             paddingVertical: 30,
             width: "70%",
-            marginHorizontal: 48,
+            marginHorizontal: 58,
             marginBottom: 20,
             height: '10%',
             backgroundColor: '#f8f9fa', 
@@ -119,7 +119,7 @@ export default function Index() {
           style={{
             paddingVertical: 30,
             width: "70%",
-            marginHorizontal: 48,
+            marginHorizontal: 58,
             marginBottom: 20,
             height: '10%',
             backgroundColor: '#f8f9fa', 
@@ -135,6 +135,30 @@ export default function Index() {
         >
           <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: "bold",color: '#000' }}>
             Bloco E
+          </Text>
+        </Link>
+
+        <Link 
+          href="/disciplinas" 
+          style={{
+            paddingVertical: 30,
+            width: "70%",
+            marginHorizontal: 58,
+            marginBottom: 20,
+            height: '10%',
+            backgroundColor: '#B400FF', 
+            borderRadius: 20, 
+            shadowColor: '#000', 
+            shadowOpacity: 0.2, 
+            shadowOffset: { width: 0, height: 2 },
+            justifyContent: 'center',
+            alignItems: 'center',
+            display: 'flex',
+            textAlign: 'center'
+          }}
+        >
+          <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: "bold",color: '#F8F7FB' }}>
+            Disciplinas
           </Text>
         </Link>
 

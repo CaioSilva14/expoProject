@@ -18,7 +18,7 @@ export default function BoxE() {
   <View style={{ alignItems: 'center', marginVertical: 20 }}>
     <Image
       source={require('../images/blocoE.png')} // Substitua pelo caminho real da sua imagem
-      style={{ width: '90%', height: 200, borderRadius: 30 }} // Ajuste a largura e altura conforme necessário
+      style={{ width: '90%', height: 200, borderRadius: 50 }} // Ajuste a largura e altura conforme necessário
       resizeMode="contain"
     />
   </View>
@@ -86,7 +86,28 @@ export default function BoxE() {
     <Text style={{ fontSize: 16, color: '#555' }}>
     Biblioteca (2º Entrada){"\n"}
     Laboratório de informática{"\n"}
-    Banheiros: Feminino e Masculino
+    Banheiros: Feminino e Masculino{"\n"}
+    E-101 até 108: Sala de aula
+    </Text>
+  </View>
+
+  <View
+    style={{
+      backgroundColor: '#ffffff',
+      marginTop: 10,
+      padding: 16,
+      marginHorizontal: 16,
+      borderRadius: 10,
+      shadowColor: '#000',
+      shadowOpacity: 0.2,
+      shadowOffset: { width: 0, height: 2 },
+      elevation: 4,
+    }}
+  >
+    <Text style={{ fontSize: 16, fontWeight: 'bold', marginBottom: 8 }}>3º Andar </Text>
+    <Text style={{ fontSize: 16, color: '#555' }}>
+    Banheiros: Feminino e Masculino{"\n"}
+    E-201 até 212: Sala de aula
     </Text>
   </View>
 </ScrollView>

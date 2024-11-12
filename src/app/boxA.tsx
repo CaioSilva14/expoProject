@@ -18,7 +18,7 @@ export default function BoxA() {
   <View style={{ alignItems: 'center', marginVertical: 20 }}>
     <Image
       source={require('../images/blocoA.png')} // Substitua pelo caminho real da sua imagem
-      style={{ width: '90%', height: 200, borderRadius: 30 }} // Ajuste a largura e altura conforme necessário
+      style={{ width: '90%', height: 200, borderRadius: 50 }} // Ajuste a largura e altura conforme necessário
       resizeMode="contain"
     />
   </View>
