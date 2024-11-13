@@ -1,4 +1,4 @@
-import { View, Text, Image, ScrollView } from 'react-native';
+import { View, Text, ScrollView } from 'react-native';
 import { Header } from "../components/header";
 import Constants from 'expo-constants';
 const statusBarHeight = Constants.statusBarHeight;
